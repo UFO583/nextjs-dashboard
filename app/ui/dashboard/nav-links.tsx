@@ -23,6 +23,8 @@ const links = [
 
 export default function NavLinks() {
   const pathname = usePathname();
+  console.log(`这个是pathname: ${pathname}`);
+
   return (
     <>
       {links.map((link) => {
